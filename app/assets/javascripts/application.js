@@ -14,3 +14,7 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+//= require bootstrap/dist/js/bootstrap
+//= require angular
+//= require angular-ui-router
+//= require angular-rails-templates
