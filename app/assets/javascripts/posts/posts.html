@@ -1,0 +1,5 @@
+    <h1>{{vm.test}}</h1> <!-- Should render 'Hello World' -->
+    <!-- this will render a list of posts -->
+    <ul>
+        <li ng-repeat="post in vm.posts | track by post.id">{{post.content}}</li>
+    </ul>
